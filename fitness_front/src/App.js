@@ -9,6 +9,7 @@ function App() {
 
   return (
     <div>
+
       <LanguageSelector setLanguage={setLanguage} />
       <ExerciseForm translation={translations[language]} />
       <UserForm translation = {translations[language]} />
